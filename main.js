@@ -62,7 +62,7 @@ function validarSesion() {
             if (cuentas[i].password === password.value) {
                 vistaHome.style.display = "block";
                 vistaLogin.style.display = "none";
-                bienvenida.innerHTML = 'Bienvenido @' + cuentas[i].nombre
+                bienvenida.innerHTML = 'Bienvenido ' + cuentas[i].nombre
 
             } else {
                 error.innerHTML = 'Contraseña no encontrada'
